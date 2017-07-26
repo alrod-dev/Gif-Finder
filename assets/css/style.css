@@ -1,0 +1,16 @@
+/*Author: Alfredo Rodriguez*/
+/*File: CSS - style.css*/
+/*Date: 7/26/2017*/
+
+/*
+    Global Page Settings
+ */
+
+
+/*Sets the background images to the body*/
+body {
+    background: url("../images/Pinstripe_Rain.png");
+
+    /* Center and scale the image nicely */
+    background-size: cover;
+}
