@@ -6,6 +6,11 @@
     Global Page Settings
  */
 
+@font-face {
+
+    font-family: FFF Tusj;
+    src: url("../fonts/FFF_Tusj.ttf") ;
+}
 
 /*Sets the background images to the body*/
 body {
@@ -14,3 +19,59 @@ body {
     /* Center and scale the image nicely */
     background-size: cover;
 }
+
+h1 {
+    font-size: 80px;
+    color: white;
+
+    margin-top: 2%;
+
+}
+
+.display-3 {
+    text-align: center;
+    font-family: "FFF Tusj";
+
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+
+    margin-top: 2%;
+
+}
+
+.display-4 {
+    text-align: center;
+    font-family: "FFF Tusj";
+
+}
+
+
+#searchBox, #searchButton
+{
+
+    height: 10%;
+
+}
+
+#searchButton
+{
+    float: left;
+
+    width: 200%;
+}
+
+#searchBox
+{
+    width: 90%;
+
+    float: right;
+}
+
+#buttonParam, #searchBoxParam
+{
+    margin-top: 5%;
+}
+
