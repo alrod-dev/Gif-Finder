@@ -20,6 +20,7 @@ body {
     background-size: cover;
 }
 
+/*Sets the style and font for the headers*/
 h1 {
     font-size: 80px;
     color: white;
@@ -48,7 +49,7 @@ h2 {
 
 }
 
-
+/*Sets the margins and style for the boxes*/
 #searchBox, #searchButton
 {
 
@@ -75,3 +76,29 @@ h2 {
     margin-top: 5%;
 }
 
+#gifsRow
+{
+    margin-top: 15%;
+}
+
+.fakeButtons
+{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.gifs
+{
+    margin: 1% 1% 1% 1%;
+
+    width: 100%;
+}
+
+.gifLocation
+{
+    margin: 1% 1% 1% 1%;
+
+    float: left;
+
+    width: 30%;
+}
