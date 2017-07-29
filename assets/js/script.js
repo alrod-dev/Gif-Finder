@@ -42,6 +42,11 @@ $(document).ready(function () {
 
                         var personImage = $("<img class='gifs'>");
 
+                        // Storing the result item's rating
+                        var rating = results[i].rating;
+                        // Creating a paragraph tag with the result item's rating
+                        var p = $("<p class='ratings'>").text("Rating: " + rating);
+
                         personImage.attr("src", results[i].images.fixed_height.url);
 
                         personImage.attr("data-animate", results[i].images.fixed_height.url);
@@ -52,7 +57,10 @@ $(document).ready(function () {
 
                         console.log(results);
 
-                        gifDiv.prepend(personImage);
+                        // Appending the paragraph and personImage we created to the "gifDiv" div we created
+                        gifDiv.append(p);
+
+                        gifDiv.append(personImage);
 
                         $("#gifBox").prepend(gifDiv);
 
