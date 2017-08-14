@@ -9,7 +9,7 @@
 <h2>Selection of Gifs<h2>
 
 <p style="text-align: center">
-    <img src="assets/images/selectionPage.png" width="100%">
+    <img src="assets/images/selection.png" width="100%">
 </p>
 
 <h3>Technologies used</h3>
