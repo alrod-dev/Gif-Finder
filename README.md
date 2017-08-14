@@ -1,5 +1,8 @@
 <h1 align="center">Gif Finder API</h1>
 
+<h2>Info:</h2>
+<p>This web application helps you find any gif you want to find using the Giphy API</p>
+
 <h2>Starting Page<h2>
 
 <p style="text-align: center">
